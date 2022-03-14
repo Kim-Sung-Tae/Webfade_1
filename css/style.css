@@ -42,6 +42,9 @@ li{list-style: none;}
 .align-center{
     align-items: center;
 }
+.overflow-hidden{
+    overflow: hidden;
+}
 
 .bg-red{
     background-color: red;
@@ -109,3 +112,7 @@ li{list-style: none;}
 .d2ul li:hover{background-color: white;}
 .d2ul li:hover a {color: black;}
 
+
+#slider ul{
+    width:100000px; display:flex;
+}
